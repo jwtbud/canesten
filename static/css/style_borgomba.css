@@ -1,0 +1,1071 @@
+body#borgsite {
+	width: 100%;
+	height: 300%;
+	background:url("../images/borgsite/bg-texture.png") left top repeat-x;
+	overflow-x: hidden;
+}
+
+#borgsite #decorfix {
+	width: 1000px;
+	height: 1px;
+	position: relative;
+	margin: auto;
+	margin-top: -1px;
+	z-index: 1;
+}
+
+#borgsite .bgdecor1 {
+	background: url(../images/borgsite/decor1.png) no-repeat top left;
+	position: absolute;
+	left: -307px;
+	top: 180px;
+	height: 660px;
+	width: 500px;
+	display: block;
+	z-index: 1;
+}
+
+#borgsite .bgdecor2 {
+	background: url(../images/borgsite/decor2.png) no-repeat top right;
+	position: absolute;
+	right: -312px;
+	top: 180px;
+	height: 660px;
+	width: 500px;
+	display: block;
+	z-index: 1;
+}
+
+#borgsite .bgdecor2, .bgdecor2 {
+	z-index: 1;
+}
+
+#borgsite #gradbottom{
+	background: url(../images/borgsite/bottom-bg.png) repeat-x bottom center !important;
+	margin-bottom: 30px;
+}
+
+#borgsite .containerbox {
+ 	width: 950px;
+ 	padding-top: 10px;
+ 	margin-left: -18px;
+}
+
+#borgsite #content_bg_borgomba {
+	background: none !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='transparent', endColorstr='transparent') !important;
+	z-index: 1055;
+}
+
+#borgsite #content_bg_inner_borgomba {
+	z-index: 1000;
+}
+
+#borgsite .ui-tabs .ui-tabs-nav {
+	padding-left: 295px;
+}
+
+#borgsite #content_bg_padding_borgomba {
+	padding-top: 110px;
+}
+
+#borgsite #container {
+	margin-top: -5px;
+	z-index: 2;
+}
+
+#borgsite .hiddenlink {
+	overflow: hidden; display: none;
+}
+
+#borgsite .topbox h1, #borgsite #content_bg_padding h1{
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#borgsite .topbox {
+	border-radius: 7px;
+	background: url(../images/borgsite/box-bg.png) repeat-x #fff;
+	width: 840px !important;
+	margin: auto;
+	margin-top: 30px;
+	padding: 20px 30px 10px 30px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+#borgsite .main-top {
+	display: block;
+	width: 950px;
+	height: 330px;
+	margin-left: -16px;
+	position: relative;
+	overflow: hidden;
+	background: url(../images/borgsite/main-top.png) no-repeat top center;
+}
+
+
+#borgsite .main-top h1 {
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	width: 260px;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 35px;
+}
+
+#borgsite .main-top p {
+	position: absolute;
+	display: block;
+	top: 46px;
+	right: 15px;
+	width: 250px;
+	font-size: 12px !important;
+	line-height: 17px;
+	color: #222;
+	font-size: 13px;
+	text-align: left;
+}
+
+.win #borgsite .main-top ul {
+	top: 126px;
+	width: 245px;
+	right: 19px
+
+}
+
+.win #borgsite .main-top ul li {
+margin-bottom: -2px
+}
+#borgsite .main-top ul {
+	position: absolute;
+	display: block;
+	top: 125px;
+	right: 35px;
+	width: 230px;
+	font-size: 12px !important;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: left;
+	color: #222;
+}
+
+#borgsite .main-top ul li {
+	color: #222;
+	margin-bottom: 2px;
+	margin-left: 20px;
+	padding-left: 1px;
+}
+
+#borgsite .main-top span {
+	position: absolute;
+	display: block;
+	bottom: 17px;
+	left: 24px;
+	width: 950px;
+	font-size: 12px;
+	line-height: 30px;
+	color: #c4003f;
+	text-align: center;
+}
+
+#borgsite .main-box {
+	display: block;
+	width: 960px;
+	height: 280px;
+	margin-top: 45px;
+	margin-left: -20px;
+	position: relative;
+	overflow: hidden;
+	margin-left: -5px;
+}
+
+#borgsite .main-box .box {
+	width: 303px;
+	display: block;
+	height: 250px;
+	float: left;
+	margin-right: 10px;
+	background: url(../images/borgsite/box-trio-bg.png) no-repeat top center;
+}
+#borgsite .main-box .box {
+	font-size: 10px !important;
+}
+
+#borgsite a.box {
+	text-decoration: none
+}
+
+#borgsite a.box h2 {
+	color: #c4003f;
+	width: 300px;
+	text-align: center;
+	font-size: 14px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+#borgsite a.box img {
+	margin-left: 22px;
+}
+
+#borgsite a.box p {
+	color: #222;
+	width: 250px;
+	font-size: 12px;
+	margin-top: 3px;
+	font-weight: normal;
+	padding-left: 30px;
+}
+
+#borgsite a.box p b {
+	color: #c40040;
+	text-decoration: underline;
+}
+
+
+#borgsite #fragment-4 .fullcontentbox h1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+#borgsite #content_bg_borgomba {
+	min-height: 860px;
+}
+
+#borgsite #lastcontentbox.contentbox {
+	margin-bottom: 30px;
+}
+
+#borgsite div#imgbox2.imgbox {
+	margin-top: -75px;
+	height: 260px;
+}
+
+#borgsite .contentbox h1 {
+ 	margin-top: -63px;
+ 	float: left;
+ 	margin-left: -100px;
+ 	padding-left: 95px;
+ 	padding-top: 10px;
+ 	width: 400px;
+ 	height: 12px !important;
+ 	display: block;
+ 	background: url(../images/borgsite/content-h1-bg.png) no-repeat top left;
+ 	z-index: 5;
+ 	font-size: 18px;
+ }
+
+#borgsite .topbox .imgbox {
+	width: 370px;
+	float: right;
+	height: 460px;
+	display: block;
+	margin-top: -50px;
+	margin-right: -55px;
+	padding-left: 14px;
+}
+
+#borgsite #fragment-3 .topbox {
+	width: 730px !important;
+	float: left !important;
+	margin-right: 215px;
+	margin-bottom: 5px;
+	margin-left: 7px;
+	display: block;
+}
+
+#borgsite #fragment-3 .topbox p {
+	margin-bottom: 27px;
+}
+
+#borgsite #fragment-3 .topbox .imgbox {
+	width: 270px;
+	float: right;
+	height: 260px;
+	display: block;
+	margin-top: -30px;
+	margin-right: -175px;
+	padding-left: 40px;
+	z-index: 10;
+}
+
+#borgsite #fragment-3 .contentbox #imgbox2.imgbox {
+ 	margin-left: -115px;
+ 	padding-right: 15px;
+ }
+
+#borgsite #fragment-3 .contentbox #imgbox2-day.imgbox {
+ 	margin-left: -155px;
+ 	padding-right: 55px;
+ 	margin-top: -85px;
+ 	height: 255px;
+ }
+
+#borgsite #fragment-3 #lastcontentbox.contentbox {
+	height: 95px;
+
+}
+
+
+#borgsite #fragment-3 .contentbox h1 {
+	color: #fff;
+ 	margin-top: -63px;
+ 	margin-left: 120px;
+ 	padding-left: 95px;
+ 	padding-top: 10px;
+ 	width: 550px;
+ 	height: 12px !important;
+ 	display: block;
+ 	background: url(../images/borgsite/fragment-2-h1.png) no-repeat top left;
+ 	z-index: 5;
+ 	font-size: 18px;
+ 	font-weight: bold;
+ }
+
+#borgsite #fragment-3 .contentbox {
+	margin-bottom: 10px;
+	padding-top: 50px;
+	float: left;
+
+}
+
+#borgsite  #fragment-2 .bottomnavig {
+	margin-top: 10px
+}
+
+
+#borgsite  #fragment-3 .bottomnavig {
+	padding-top: 30px;
+}
+
+#borgsite #content_bg_inner_borgomba {
+	overflow: hidden;
+}
+
+.clearboth {
+	clear: both;
+}
+
+#borgsite .topbox ul, #borgsite .contentbox ul {
+	margin-top: 20px;
+	list-style-type: square;
+	color: #222;
+	margin-left: 0px;
+	padding-left: 20px;
+}
+
+#borgsite .contentbox ul li {
+	margin-left: 30px;
+	margin-bottom: 12px;
+}
+
+#borgsite .topbox ul li {
+	margin-bottom: 16px;
+}
+
+#borgsite .contentbox ul{
+	padding-left: 30px;
+
+}
+
+#borgsite .contentbox ul li.last {
+	margin-bottom: 5px;
+}
+
+#borgsite #footer_packshot_link_borgomba {
+	display: block;
+	height: 250px;
+	left: 650px;
+	position: absolute;
+	top: 45px;
+	width: 360px;
+	z-index: 10;
+}
+
+#borgsite #footer_top_bg_inner_borgomba {
+	margin-top: -140px;
+}
+
+#borgsite #footer_top_bg_inner_borgomba .copyright, #borgsite .veny {
+	color: #333333;
+	font-size: 10px;
+	left: 42px;
+	line-height: 14px;
+}
+
+#borgsite .veny {
+	left: 40px;
+	position: relative;
+	top: 150px;
+}
+
+#borgsite #footer_top_bg_inner_borgomba .copyright {
+	left: 40px;
+	top: 157px;
+	text-align: left;
+}
+
+#borgsite #footer_top_bg_borgomba {
+	z-index: 50;
+	height: 280px;
+	position: relative;
+	margin-bottom: 70px;
+}
+
+#borgsite .content_bg_borgomba {
+	z-index: 255;
+}
+
+
+#borgsite #container #footer_bayer_logo {
+	display: block;
+	background: url("../images/bayer_logo_wide.png") center center no-repeat;
+	width: 216px;
+	height: 36px;
+	position: absolute;
+	bottom: 192px;
+	left: 35%;
+	margin-left: -40px;
+	z-index: 5000;
+
+}
+
+#borgsite #footer_bg {
+	position: relative;
+	margin-top: -100px;
+	z-index: 210 !important;
+	height: 190px;
+}
+
+
+
+.mac #borgsite #footer_menu {
+	width: 589px;
+}
+
+#borgsite #footer_menu {
+	width: 565px;
+	top: 5px;
+	position: absolute;
+	left: 30px;
+	padding-left: 10px;
+}
+
+.win #borgsite #footer_menu {
+	width: 595px;
+	top: 15px;
+	position: absolute;
+	left: 5px;
+	padding-left: 10px;
+}
+
+.win #borgsite .separator {
+margin-left: 15px;
+margin-right: 15px
+}
+
+.win #borgsite #sub_menu .separator {
+margin-left: 1px;
+margin-right: 1px
+}
+
+#borgsite .footer-link-fix {
+	width: 720px;
+	height: 70px;
+	display: block;
+}
+
+
+#borgsite #footer_menu {
+	width: 585px;
+	top: 10px;
+	position: absolute;
+	left: 30px;
+	padding-left: 5px;
+}
+
+#borgsite #footer_text {
+	padding-top: 30px;
+	color: #939598;
+	line-height: 20px;
+	padding-bottom: 20px;
+}
+
+#footer_menu li.separator {
+margin-left: 23px;
+margin-right: 23px;
+}
+
+#borgsite .bottomnavig {
+	z-index: 350;
+	margin-bottom: 40px;
+	margin-top: -10px;
+	margin-left: -40px;
+	width: 800px;
+}
+
+#borgsite .bottomnavig ul li {
+	display: inline;
+	margin-right: 35px;
+
+}
+
+#borgsite .bottomnavig ul li a {
+	font-size: 12px;
+	color: #fff;
+	background: #d3094b;
+	text-decoration: none;
+	padding: 8px 15px;
+	border-radius: 8px;
+	font-weight: normal !important;
+	margin-top: -20px;
+	border: 1px solid #fff;
+	box-shadow: 0 1px 2px #181818;
+}
+
+.contentbox p a {
+	color: #c50040
+}
+
+.contentbox p a:hover {
+	color: #b40d43
+}
+
+
+#borgsite .bottomnavig ul li a:hover {
+	background: #db3169;
+}
+
+#borgsite .bottomnavig ul li a span {
+	font-size: 11px;
+	margin-top: -6px;
+	margin-left: -1px;
+}
+
+#borgsite .bottom-bg{
+	position: absolute;
+	z-index: 1;
+	background: url(../images/borgsite/bottom-bg.png);
+	width: 100%;
+	height: 300px;
+	margin-top: -330px;
+}
+
+#borgsite .borgomba_flash {
+	padding: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px #484848;
+	background: #fff;
+	border-radius: 7px;
+	float: left;
+	width: 390px;
+	height: 390px;
+	margin-bottom: 20px;
+}
+
+#borgsite .removeborder {
+	overflow: hidden;
+	padding: 5px;
+	width: 380px;
+	height: 380px;
+ }
+
+#borgsite .removeborder object {
+	overflow: hidden;
+	margin-top: -10px;
+	margin-left: -5px;
+ }
+
+#borgsite .borgomba_flash2 {
+	padding: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px #484848;
+	background: #fff;
+	border-radius: 7px;
+	float: right;
+	width: 350px;
+	height: 360px;
+	margin-bottom: 20px;
+}
+
+#borgsite .borgomba_flash2 .removeborder {
+	overflow: hidden;
+	padding: 5px;
+	width: 338px;
+	height: 348px;
+ }
+
+#borgsite .borgomba_flash2 .removeborder object {
+	overflow: hidden;
+	margin-top: -20px;
+	margin-left: -5px;
+ }
+
+#borgsite #fragment-4 .borgomba_flash {
+	padding: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px #484848;
+	background: #fff;
+	border-radius: 7px;
+	float: right;
+	width: 403px;
+	height: 403px;
+	margin-bottom: 10px;
+}
+
+#borgsite #fragment-4 .borgomba_flash .removeborder {
+	overflow: hidden;
+	padding: 5px;
+	width: 390px;
+	height: 395px;
+ }
+
+#borgsite #fragment-4 .borgomba_flash .removeborder object {
+	overflow: hidden;
+	margin-top: -12px;
+	margin-left: -5px;
+ }
+
+#borgsite .containerboxtext {
+	color: #333;
+  	border-radius: 7px;
+  	display: block;
+ 	height: 360px;
+ 	width: 490px;
+ 	overflow: hidden;
+ 	padding: 20px;
+ 	box-shadow: 0 0 2px rgba(256,256,256,0.9) inset, 0 1px 2px #585858;
+ 	border: 1px solid #ccc;
+ 	background: url(../images/borgsite/containerboxtext-bg.png) repeat-x bottom center #fff;
+ 	margin-bottom: 20px;
+ }
+
+#borgsite .boxfloatright {
+ 	float: right;
+ }
+
+#borgsite .boxfloatleft {
+ 	float: left;
+ }
+
+#borgsite .containerboxtext p {
+	color: #333;
+}
+
+#borgsite .kezelestop h2, #borgsite .megelozestop h2, #borgsite .containerboxtext h2 {
+	font-size: 19px;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #fff;
+	line-height: 22px;
+	color: #cf003a;
+	padding-bottom: 20px;
+	min-width: 500px;
+}
+
+#borgsite .megelozestop h2 {
+	padding-bottom: 12px;
+	padding-top: 0px;
+}
+
+#borgsite .containerimgbox {
+	width: 399px;
+	height: 470px;
+}
+
+#borgsite .containerimgbox img {
+	margin-top: -6px;
+	margin-left: -10px;
+}
+
+#borgsite .floatleft {
+	float: left;
+}
+
+#borgsite .floatright {
+	float: right;
+}
+
+#borgsite .containerimgbox2 {
+	width: 299px;
+	height: 350px;
+}
+
+#borgsite .containerimgbox2 img {
+	margin-top: 5px;
+	margin-left: -2px;
+}
+
+
+ #borgsite ul.reddot {
+	list-style-type: none;
+	padding-left: 0px;
+	color: #333;
+}
+
+#borgsite ul.reddot.libottom span {
+padding-bottom: 5px;
+	display: block;
+	margin-top: -5px;
+}
+
+#borgsite .libottom {
+	padding-bottom: 10px;
+}
+
+#borgsite ul.reddot li {
+	background: url(../images/borgsite/reddot.png) left top no-repeat;
+	color: #333;
+	padding-left: 20px;
+}
+
+#borgsite ul.reddot.hajlamosito {
+	margin-top: -8px;
+}
+
+#borgsite ul.reddot.hajlamosito li {
+	padding-bottom: 10px;
+}
+
+#borgsite .hajlamositotext {
+	height: 401px !important;
+}
+
+#borgsite .lastcontainerbox {
+	height: 275px !important;
+	width: 563px !important;
+}
+
+#borgsite .containerboxtext.hajlamositotext h2 {
+	margin-top: -4px;
+}
+
+#borgsite .megelozestop {
+	color: #333;
+  	border-radius: 7px;
+  	display: block;
+ 	height: 315px;
+ 	width: 480px;
+ 	padding: 14px 20px 20px 15px;
+ 	box-shadow: 0 0 2px rgba(256,256,256,0.9) inset, 0 1px 2px #585858;
+ 	border: 1px solid #ccc;
+ 	background: url(../images/borgsite/containerboxtext-bg.png) repeat-x bottom center #fff;
+ 	margin-bottom: 12px;
+ 	float: left;
+ }
+
+.win #borgsite .kezelestop {
+	height: 455px;
+	padding: 14px 13px 20px 15px;
+	width: 530px
+}
+
+.win #borgsite .felhivas {
+	height: 95px
+}
+
+.win #borgsite .kezelestop  p {
+	line-height: 16px;
+}
+
+.ff2 #borgsite .kezelestop {
+height: 465px;
+	padding: 14px 13px 20px 15px;
+	width: 530px
+}
+
+.ff2 #borgsite .felhivas {
+	height: 105px
+}
+
+#borgsite .kezelestop {
+	color: #333;
+  	border-radius: 7px;
+  	display: block;
+ 	height: 460px;
+ 	width: 525px;
+ 	padding: 14px 20px 20px 15px;
+ 	box-shadow: 0 0 2px rgba(256,256,256,0.9) inset, 0 1px 2px #585858;
+ 	border: 1px solid #ccc;
+ 	background: url(../images/borgsite/containerboxtext-bg.png) repeat-x bottom center #fff;
+ 	margin-bottom: 20px;
+ 	float: left;
+
+ }
+ #borgsite .kezelestop p,  #borgsite .megelozestop p  {
+ 	color: #333;
+ }
+
+ #borgsite .kezelestop h2 {
+ 	padding-bottom: 10px;
+ }
+
+ #borgsite .kezelestop .redbox {
+ 	font-size: 12px;
+	color: #fff;
+	background: #d3094b;
+	text-decoration: none;
+	padding: 8px 20px;
+	border-radius: 8px;
+	font-weight: 900 !important;
+	margin-top: 1px;
+	margin-left: -32px;
+	border: 1px solid rgba(256,256,256,0.7);
+	box-shadow: 0 1px 2px rgba(50,50,50,0.5);
+	display: block;
+	height: 72px;
+	width: 515px;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 1px rgba(100,100,100,0.2);
+ }
+
+  #borgsite .kezelestop .redbox h3 {
+  	color: #fff;
+  	font-size: 12px;
+  	font-weight: bold;
+  	padding-left: 11px;
+  	padding-top: 0px;
+  	margin-top: -2px;
+  	padding-bottom: 0px;
+  }
+
+ #borgsite .kezelestop .redbox ul li{
+ 	color: #fff;
+ 	font-weight: 100 !important;
+ 	font-size: 12px;
+ 	padding-bottom: 0px;
+ 	height: 19px;
+ 	line-height: 15px;
+  }
+
+  #borgsite .kezelestop .redbox ul {
+  	margin-left: 10px;
+  	margin-top: -1px;
+  }
+
+#borgsite .felhivas {
+	float: right;
+	height: 100px;
+	width: 365px;
+	margin-bottom: 24px;
+	position: relative;
+}
+
+#borgsite .felhivas span {
+	margin: auto;
+	font-weight: bold;
+ 	font-size: 12.5px;
+	color: #fff;
+	background: #d3094b;
+	text-decoration: none;
+	padding: 24px 0 10px 0;
+	border-radius: 8px;
+	border: 1px solid rgba(256,256,256,0.7);
+	box-shadow: 0 1px 2px rgba(50,50,50,0.5);
+	display: block;
+	height: 42px;
+	width: 230px;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 1px rgba(100,100,100,0.2);
+	text-align: center;
+	margin-top: 12px;
+}
+
+
+#borgsite .felhivas .arrow {
+	width: 0px;
+	height: 0px;
+	border-style: solid;
+	border-width: 12px 25.5px 0 25.5px;
+	border-color: #ffffff transparent transparent transparent;
+	margin: auto;
+	margin-top: 8px;
+	/*animation: arrowanim 1s ease infinite;
+	-webkit-animation: arrowanim linear 1s infinite;*/
+}
+/*
+@keyframes arrowanim
+{
+0%   { margin-top: 9px; }
+50%  { margin-top: 13px; }
+100%  { margin-top: 9px;}
+}
+
+@-webkit-keyframes arrowanim
+{
+0%   { margin-top: 9px; }
+50%  { margin-top: 13px; }
+100%  { margin-top: 9px;}
+}
+*/
+
+.megelozesleft {
+	float: left;
+	height: 420px;
+	width: 520px;
+}
+
+#borgsite .felhivas2 {
+	float: left;
+	font-size: 17px;
+	font-weight: 100;
+	line-height: 50px;
+	width: 515px;
+	margin-bottom: 24px;
+	position: relative;
+	border: 1px solid red;
+	display: block;
+	color: #fff;
+	background: #d3094b;
+	text-decoration: none;
+	border-radius: 8px;
+	border: 1px solid rgba(256,256,256,0.7);
+	box-shadow: 0 1px 2px rgba(50,50,50,0.5);
+	display: block;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 1px rgba(100,100,100,0.2);
+	text-align: center;
+}
+
+#borgsite .fullwidthcontent {
+	width: 100%;
+	background: url(../images/borgsite/stripe.png) #fff;
+	border-radius: 7px;
+	color: #c40040;
+	font-weight: bold;
+	text-align: center;
+	line-height: 40px;
+	box-shadow: 0 0 2px rgba(256,256,256,0.9) inset, 0 1px 2px #585858;
+	border: 1px solid #ccc;
+	font-size: 12px
+}
+
+#borgsite .products {
+	border-radius: 7px;
+	box-shadow: 0 0 2px rgba(256,256,256,0.9) inset, 0 1px 2px #585858;
+	border: 1px solid #ccc;
+	margin: 20px 30px 12px 0;
+	width: 430px;
+	height: 210px;
+	background: url(../images/borgsite/containerboxtext-bg.png) repeat-x bottom center #fff;
+	float: left;
+	position: relative;
+	display: block;
+	padding: 10px 15px 10px 15px;
+}
+
+#borgsite .productbox {
+	width: 990px;
+	margin-left: -20px;
+}
+
+#borgsite .products p {
+	color: #333;
+	margin-bottom: 5px;
+}
+
+#borgsite .products h2 {
+	color: #c4003f;
+	font-size: 19px;
+	padding-top: 12px;
+	font-weight: bold;
+}
+
+#borgsite .products a {
+	width: 100%; display: block; text-align: right
+}
+
+#borgsite .products.product1 img {
+	margin: auto;
+	display: block;
+	margin-bottom: -27px;
+	margin-top: -5px;
+}
+
+#borgsite .products.product2 img {
+	float: left;
+	margin-left: -15px;
+	padding-right: 10px;
+}
+
+#borgsite .products.product2 h2 {
+	margin-top: 60px;
+}
+
+#borgsite .products.product3 img {
+	margin: auto;
+	display: block;
+	margin-bottom: -12px;
+	margin-top: -10px;
+}
+
+#borgsite .products.product4 img {
+	float: left;
+	margin-left: -15px;
+	padding-right: 5px;
+}
+
+#borgsite .products.product4 h2 {
+	margin-top: 42px;
+}
+
+#borgsite .products.product4 p {
+	width: 440px;
+}
+
+#borgsite #fragment-4 .bottomnavig {
+	margin-top: 25px;
+	margin-left: -58px;
+}
+
+#borgsite .megelozestipp .box {
+	color: #333;
+  	border-radius: 7px;
+  	display: block;
+ 	box-shadow: 0 0 2px rgba(256,256,256,0.9) inset, 0 1px 2px #585858;
+ 	border: 1px solid #ccc;
+ 	background: url(../images/borgsite/containerboxtext-bg.png) repeat-x bottom center #fff;
+ 	margin-bottom: 20px;
+ 	float: left;
+ 	width: 680px;
+ }
+#borgsite .megelozestipp.tipp1 .box{
+ 	height: 88px;
+ 	padding: 13px 20px 25px 15px;
+
+ }
+#borgsite .megelozestipp.tipp2 .box {
+ 	height: 58px;
+ 	padding: 11px 20px 25px 15px;
+  }
+
+#borgsite  .megelozestipp.tipp3 .box {
+ 	height: 51px;
+ 	padding: 20px 20px 25px 15px;
+ }
+
+#borgsite .megelozestipp .box p {
+	color: #333;
+ }
+
+#borgsite .megelozestipp.tipp1 p {
+	margin-bottom: 9px;
+ }
+
+#borgsite .megelozestipp {
+	display: block;
+	width: 100%;
+}
+
+#borgsite .megelozestipp img {
+	float: right;
+	margin-top: -5px;
+	margin-right: -5px;
+}
+
+#borgsite .containerbox.last {
+	margin-top: 0px;
+}
+

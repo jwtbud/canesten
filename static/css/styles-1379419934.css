@@ -1,0 +1,907 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+.pie {
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+}
+.transition {
+  -webkit-transition: background 0.3s ease-in;
+  -moz-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+  transition: background 0.3s ease-in;
+}
+.clear {
+  display: block !important;
+  visibility: hidden !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  height: 0 !important;
+  width: 0 !important;
+  float: none !important;
+  clear: both !important;
+}
+body {
+    background: url('../images/layout/layout-bg.png') no-repeat top center #e4f1f8;
+}
+#layout
+{
+  position: relative;
+  width: 1272px;
+  height: auto;
+  margin: 0 auto;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  height: 340px !important;
+  margin: 0 auto;
+  background: #fff;
+}
+
+footer .container {
+  position: relative;
+  width: 1000px;
+  margin: auto !important;
+}
+
+#layout .container,
+footer .container {
+  padding: 0 151px 0 148px;
+}
+
+#header_bg {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 12px;
+  margin: auto;
+  width: 986px;
+  height: 98px;
+  background: url("../images/header_bg.png") center left no-repeat;
+  z-index: 5;
+  overflow: hidden;
+}
+#header_bg ul,
+#header_bg li {
+  display: block;
+  float: left;
+}
+#main_menu {
+  z-index: 5;
+  position: relative;
+  top: 65px;
+  left: 17px;
+}
+#main_menu li a {
+  z-index: 5;
+  display: block;
+  text-align: center;
+  width: 191px;
+  height: 23px;
+  font-weight: bold;
+  background: url("../images/menu_bg.png") center left no-repeat;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+#main_menu li a:hover {
+  color: #cf003a;
+  background: url("../images/menu_bg_over.png") center left no-repeat;
+}
+#main_menu li a.actual {
+  color: #cf003a;
+  background: url("../images/menu_bg_over.png") center left no-repeat;
+}
+#main_menu li a span {
+  display: block;
+  padding-top: 4px;
+}
+#sub_menu {
+  z-index: 5;
+  position: relative;
+  left: 595px;
+  top: 23px;
+}
+#sub_menu li {
+  font-size: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#sub_menu li.separator {
+  padding: 0px;
+  width: 1px;
+  height: 14px;
+  border-left: #333132 solid 1px;
+}
+#sub_menu li a {
+  color: #333132;
+  text-decoration: none;
+}
+#sub_menu .search_icon {
+  height: 16px;
+  line-height: 14px;
+  padding-right: 26px;
+  background: url("../images/search_icon_menu.png") center right no-repeat;
+  margin-right: 8px;
+}
+#layout #main-header:hover {
+  cursor: pointer;
+}
+#layout #banner-content {
+  overflow: hidden;
+  height: 95px;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+#layout #banner-content img {
+  float: left;
+  margin: -40px 0 0 7px;
+}
+#layout #banner-content h1 {
+  float: left;
+  font: bold 25px/98px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+}
+#layout section {
+  position: relative;
+}
+#layout section #content-header-bg {
+  position: absolute;
+  background: url('../images/layout/content-header-bg.png') 0 0 no-repeat;
+  width: 979px;
+  height: 210px;
+}
+#layout section #content-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#layout section #content-header nav {
+  width: 950px;
+  border-bottom: solid 1px #b6b6b6;
+  float: left;
+  margin: 19px 0 0 12px;
+}
+#layout section #content-header nav ul {
+  padding: 0 0 0 197px;
+}
+#layout section #content-header nav li {
+  float: left;
+  margin: 0 10px 0 0;
+  position: relative;
+}
+#layout section #content-header nav li a {
+  float: left;
+  background: #cf013a;
+  height: 21px;
+  font: bold 12px/20px Verdana, Geneva, sans-serif;
+  padding: 0 15px;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+  color: #FFF;
+  position: relative;
+}
+#layout section #content-header nav li a.current {
+  background: #FFF;
+  color: #cf013a;
+  border: solid 1px #c2c2c2;
+  border-bottom: none;
+  height: 20px;
+  padding: 0 14px;
+}
+#layout section #content-header nav li.main {
+  display: none;
+}
+#layout section .panes {
+  position: relative;
+  top: 70px;
+  padding: 0 0 0 23px;
+}
+#layout section .panes #page-1 {
+  display: none;
+}
+#layout section .panes #page-1 .bg {
+  float: left;
+  border-top: solid 1px #e7e7e7;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#ccf0fa));
+  background-image: -webkit-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -moz-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -o-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -ms-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: linear-gradient(top,#FFF,#ccf0fa);
+  -webkit-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  -moz-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+  position: relative;
+}
+#layout section .panes #page-1 #video-img {
+  float: left;
+  border-right: solid 1px #dde0e1;
+  border-bottom: solid 1px #FFF;
+  border-left: solid 1px #FFF;
+}
+#layout section .panes #page-1 .description {
+  float: right;
+  width: 302px;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#cef2f9));
+  background-image: -webkit-linear-gradient(top,#FFF,#cef2f9);
+  background-image: -moz-linear-gradient(top,#FFF,#cef2f9);
+  background-image: -o-linear-gradient(top,#FFF,#cef2f9);
+  background-image: -ms-linear-gradient(top,#FFF,#cef2f9);
+  background-image: linear-gradient(top,#FFF,#cef2f9);
+  margin: 0 0 0 14px;
+}
+#layout section .panes #page-1 .description h2 {
+  font: bold 23px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+  margin: 16px 0 19px;
+}
+#layout section .panes #page-1 .description p {
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 18px;
+  color: #333333;
+  margin: 0 0 25px;
+  margin-right: 20px;
+}
+#layout section .panes #page-1 .description p strong {
+  font-weight: bold;
+}
+#layout section .panes #page-1 .description .red-box {
+  background: url('../images/elements/price-stripe-bg.png') 0 0 repeat-x;
+  width: 304px;
+  height: 82px;
+  color: #FFF;
+  margin: 0 0 15px;
+}
+#layout section .panes #page-1 .description .red-box h3 {
+  float: left;
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 18px;
+  width: 215px;
+  padding: 8px 0 0 8px;
+}
+#layout section .panes #page-1 .description .red-box strong {
+  float: left;
+  font: bold 38px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  margin: 7px 0 0 7px;
+}
+#layout section .panes #page-1 .description .red-box strong small {
+  display: block;
+  font: normal 12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: -10px 0 0;
+}
+#layout section .panes #page-1 .description h4 {
+  margin: -10px 0 0 0;
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 18px;
+  color: #333333;
+}
+#layout section .panes #page-1 .description h4 span {
+  color: #cf013a;
+  float: left;
+  margin: 0 5px 15px 10px;
+}
+#layout section .panes #page-1 .down-arrow-content {
+  background: url('../images/elements/down-arrow-bg.png') 0 0 no-repeat;
+  width: 910px;
+  height: 47px;
+  margin: 0 0 0 11px;
+  text-align: center;
+  font: normal 12px/32px Verdana, Geneva, sans-serif;
+  color: #FFF;
+}
+#layout section .panes #page-1 .down-arrow-content strong {
+  font-weight: bold;
+}
+#layout section .panes #page-1 ul {
+  float: left;
+  padding: 0 0 130px;
+  margin: 27px 0 0;
+}
+#layout section .panes #page-1 ul li {
+  float: left;
+  width: 293px;
+  margin: 0 27px 0 0;
+  position: relative;
+}
+#layout section .panes #page-1 ul li:hover {
+  cursor: pointer;
+}
+#layout section .panes #page-1 ul li .title {
+  background: url('../images/elements/button-bg.png') 0 0 repeat-x;
+  width: 100%;
+  height: 37px;
+  font: bold 20px/36px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+  text-indent: 14px;
+  margin: 0 0 10px;
+}
+#layout section .panes #page-1 ul li p {
+  font: normal 12px Verdana, Geneva, sans-serif;
+  color: #333333;
+  margin: 7px 0 0;
+  padding: 0 0 0 10px;
+  width: 300px;
+}
+#layout section .panes #page-1 ul li p strong {
+  font-weight: bold;
+  color: #cf013a;
+  text-decoration: underline;
+}
+#layout section .panes #page-1 ul li.third {
+  margin: 0;
+}
+#layout section .panes #page-1 ul li.third .six-week {
+  position: absolute;
+  display: block;
+  background: url('../images/elements/weeks-number.png') -216px 0 no-repeat;
+  width: 106px;
+  height: 96px;
+  right: -10px;
+  top: 116px;
+}
+#layout section .panes #page-2 {
+  padding: 0 0 120px;
+  display: none;
+}
+#layout section .panes #page-2 .bg {
+  float: left;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#ccf0fa));
+  background-image: -webkit-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -moz-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -o-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -ms-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: linear-gradient(top,#FFF,#ccf0fa);
+  -webkit-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  -moz-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+  border-top: solid 1px #e7e7e7;
+  position: relative;
+}
+#layout section .panes #page-2 .bg .description {
+  float: left;
+  width: 288px;
+  padding: 0 39px 0 19px;
+}
+#layout section .panes #page-2 .bg .description h2 {
+  font: bold 23px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+  margin: 14px 0 14px;
+}
+#layout section .panes #page-2 .bg .description p {
+  margin: 0 0 14px;
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 17px;
+  color: #333333;
+}
+#layout section .panes #page-2 .bg .description p strong {
+  font-weight: bold;
+}
+#layout section .panes #page-2 .bg .description p.last {
+  margin: 0;
+}
+#layout section .panes #page-2 .bg img {
+  float: left;
+  border-left: solid 1px #e9eaea;
+}
+#layout section .panes #page-2 .properties-of-koromgomba {
+  float: left;
+  margin: 21px 0 17px;
+}
+#layout section .panes #page-2 .properties-of-koromgomba li {
+  float: left;
+  margin: 0 4px 0 0;
+}
+#layout section .panes #page-2 .properties-of-koromgomba li.property-list {
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#d4f3fa));
+  background-image: -webkit-linear-gradient(top,#FFF,#d4f3fa);
+  background-image: -moz-linear-gradient(top,#FFF,#d4f3fa);
+  background-image: -o-linear-gradient(top,#FFF,#d4f3fa);
+  background-image: -ms-linear-gradient(top,#FFF,#d4f3fa);
+  background-image: linear-gradient(top,#FFF,#d4f3fa);
+  width: 466px;
+  height: 269px;
+  border: solid 1px #FFF;
+  margin: 0 0 0 3px;
+  -webkit-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  -moz-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+}
+#layout section .panes #page-2 .properties-of-koromgomba li.property-list h2 {
+  font: bold 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+  text-indent: 15px;
+  margin: 16px 0 13px;
+}
+#layout section .panes #page-2 .properties-of-koromgomba li.property-list ul {
+  padding: 0 0 0 15px;
+}
+#layout section .panes #page-2 .properties-of-koromgomba li.property-list ul li {
+  float: none;
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 18px;
+  color: #333333;
+  margin: 0 0 7px;
+}
+#layout section .panes #page-2 .properties-of-koromgomba li.property-list ul li span {
+  float: left;
+  background: url('../images/elements/list-style-bg.png') 0 0 no-repeat;
+  width: 3px;
+  height: 3px;
+  margin: 6px 10px 15px 0;
+}
+#layout section .panes #page-2 .properties-of-koromgomba li.property-list ul li strong {
+  font-weight: bold;
+}
+#layout section .panes #page-3 {
+  display: none;
+  padding: 0 0 120px;
+}
+#layout section .panes #page-3 .bg {
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#ccf0fa));
+  background-image: -webkit-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -moz-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -o-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -ms-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: linear-gradient(top,#FFF,#ccf0fa);
+  padding: 18px 19px;
+  margin: 0 auto 16px;
+  width: 887px;
+  -webkit-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  -moz-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+  position: relative;
+  border-top: solid 1px #e7e7e7;
+}
+#layout section .panes #page-3 .bg h2 {
+  font: bold 23px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+  margin: 0 0 21px;
+}
+#layout section .panes #page-3 .bg p {
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 18px;
+  color: #333333;
+}
+#layout section .panes #page-3 .bg p strong {
+  font-weight: bold;
+}
+#layout section .panes #page-3 img {
+  margin: 0 0 0 14px;
+}
+#layout section .panes #page-3 .middle-content {
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#ccf0fa));
+  background-image: -webkit-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -moz-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -o-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -ms-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: linear-gradient(top,#FFF,#ccf0fa);
+  width: 887px;
+  padding: 26px 19px 30px;
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 18px;
+  color: #333333;
+  margin: 16px auto 23px;
+  -webkit-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  -moz-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+}
+#layout section .panes #page-3 .middle-content strong {
+  font-weight: bold;
+}
+#layout section .panes #page-4 {
+  display: block;
+  padding: 0 0 90px;
+}
+#layout section .panes #page-4 .bg {
+  float: left;
+  background-color: #FFF;
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#ccf0fa));
+  background-image: -webkit-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -moz-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -o-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: -ms-linear-gradient(top,#FFF,#ccf0fa);
+  background-image: linear-gradient(top,#FFF,#ccf0fa);
+  width: 358px;
+  height: 372px;
+  -webkit-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  -moz-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+  position: relative;
+  border-top: solid 1px #e7e7e7;
+}
+#layout section .panes #page-4 .bg h2 {
+  font: bold 23px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+  padding: 4px 13px 0;
+}
+#layout section .panes #page-4 .bg p {
+  font: normal 12px Verdana, Geneva, sans-serif;
+  color: #333333;
+  margin: 10px 0 15px;
+  padding: 0 13px;
+}
+#layout section .panes #page-4 .bg ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  width: 324px;
+  padding: 0 0 0 13px;
+}
+#layout section .panes #page-4 .bg ol li {
+  color: #cf013a;
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 15px;
+  margin: 0 0 8px;
+}
+#layout section .panes #page-4 .bg ol li span {
+  color: #333333;
+}
+#layout section .panes #page-4 .bg ol li span strong {
+  font-weight: bold;
+}
+#layout section .panes #page-4 .bg ol li.last {
+  margin: 0;
+}
+#layout section .panes #page-4 .foot {
+  float: left;
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
+#layout section .panes #page-4 .foot h3 {
+  background: url('../images/elements/attention3.png') 0 0 no-repeat;
+  height: 38px;
+  width: 557px;
+  margin: 0 0 12px;
+  font: normal 0px/38px Verdana, Geneva, sans-serif;
+  color: #cf013a;
+  text-align: center;
+  letter-spacing: -1px;
+}
+#layout section .panes #page-4 .foot img {
+  height: 320px;
+  width: 557px;
+}
+#layout section .panes #page-4 .middle-content {
+  background: url('../images/elements/separator-bg.png') 0 0 repeat-x;
+  height: 37px;
+  width: 927px;
+  border: solid 1px #FFF;
+  border-top: none;
+  border-bottom: none;
+  text-align: center;
+  font: normal 12px/34px Verdana, Geneva, sans-serif;
+  color: #FFF;
+  margin: 13px 0;
+}
+#layout section .panes #page-4 .middle-content strong {
+  font-weight: bold;
+}
+#layout section .panes #page-4 #two-list {
+  float: left;
+  margin: 0 0 10px;
+}
+#layout section .panes #page-4 #two-list li {
+  float: left;
+  background: rgba(255,255,255,0.4);
+  -pie-background: rgba(255,255,255,0.4);
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+  width: 455px;
+  position: relative;
+  height: 583px;
+  border: solid 1px #e1e9e9;
+}
+#layout section .panes #page-4 #two-list li h2 {
+  font: bold 23px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #cf013a;
+  text-indent: 16px;
+  margin: 15px 0;
+}
+#layout section .panes #page-4 #two-list li p {
+  font: normal 12px Verdana, Geneva, sans-serif;
+  line-height: 18px;
+  color: #333333;
+  padding: 0 16px;
+}
+#layout section .panes #page-4 #two-list li p .bold {
+  display: inline !important;
+  font-weight: bold;
+}
+#layout section .panes #page-4 #two-list li strong {
+  display: block;
+  font: bold 12px Verdana, Geneva, sans-serif;
+  color: #333333;
+  margin: 0 0 23px;
+}
+#layout section .panes #page-4 #two-list li strong.bolder {
+  padding: 0 16px;
+}
+#layout section .panes #page-4 #two-list li.first {
+  margin-right: 13px;
+}
+#layout section .panes #page-4 #two-list #canespro-1,
+#layout section .panes #page-4 #two-list #canesten-plus-1 {
+  margin: 16px 0 16px 52px;
+}
+#layout section .panes #page-4 #two-list #canespro-2 {
+  position: absolute;
+  left: 61px;
+  bottom: 0;
+}
+#layout section .panes #page-4 #two-list #canesten-plus-2 {
+  position: absolute;
+  left: 43px;
+  bottom: 0;
+}
+#layout section .panes #page-4 #two-list #two-week,
+#layout section .panes #page-4 #two-list #four-week {
+  position: absolute;
+  right: 0;
+  top: 404px;
+  background: url('../images/elements/weeks-number.png') 0 0 no-repeat;
+  height: 96px;
+  width: 108px;
+}
+#layout section .panes #page-4 #two-list #four-week {
+  background-position: -108px 0;
+  top: 404px;
+}
+#layout section .panes #page-4 #two-list a {
+  color: #cf013a;
+  text-decoration: underline;
+}
+#layout section .panes .min-menu li {
+  float: left;
+  width: 224px;
+  border: solid 1px #FFF;
+  border-top: none;
+  border-bottom: none;
+}
+#layout section .panes .min-menu li:first-child {
+  margin: 0 4px 0 0;
+}
+#layout section .panes .min-menu li a {
+  float: left;
+  color: #FFF;
+  width: 224px;
+  text-align: center;
+  background: url('../images/elements/back-btn.png') 0 0 repeat-x;
+  height: 32px;
+  font: normal 12px/30px Verdana, Geneva, sans-serif;
+}
+#layout section .panes .min-menu li a span {
+  float: left;
+  background: url('../images/elements/arrow-left.png') 0 0 no-repeat;
+  height: 11px;
+  width: 5px;
+  margin: 10px 0 0 7px;
+}
+#layout section .panes #page-3 .min-menu {
+  margin: 0 0 0 13px;
+}
+#horizontal-shadow {
+  height: 1px;
+  -webkit-box-shadow: rgba(80,80,80,0.3) 0 -2px 5px;
+  -moz-box-shadow: rgba(80,80,80,0.3) 0 -2px 5px;
+  box-shadow: rgba(80,80,80,0.3) 0 -2px 5px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+}
+footer header {
+  background: url('../images/layout/footer-content-bg.png') 0 0 no-repeat;
+  width: 879px;
+  height: 189px;
+}
+footer header p {
+  position: relative;
+  top: 55px;
+  color: #606060;
+  font: normal 10px Verdana, Geneva, sans-serif;
+  text-indent: 24px;
+}
+footer header p:first-child {
+  top: 45px;
+}
+footer header img {
+  display: block;
+  position: relative;
+  top: 80px;
+  left: 226px;
+}
+footer header hr {
+  margin: 0 0 6px;
+  position: relative;
+  top: 90px;
+  width: 609px;
+  border-color: #CCC;
+}
+footer header nav {
+  position: relative;
+  top: 90px;
+}
+footer header nav li {
+  float: left;
+  border-right: solid 1px #CCC;
+}
+footer header nav li a {
+  color: #CCC;
+  font: normal 9px Verdana, Geneva, sans-serif;
+  padding: 0 25px;
+}
+footer header nav li:first-child a {
+  padding: 0 25px 0 7px;
+}
+footer header nav li.last {
+  border: none;
+}
+footer #canespro {
+  position: absolute;
+  right: 112px;
+  top: -38px;
+}
+footer #attention {
+  background: url('../images/layout/footer-bottom.png') 0 0 no-repeat;
+  height: 85px;
+  width: 607px;
+  text-align: center;
+  padding: 36px 187px 0;
+  font: normal 17px Verdana, Geneva, sans-serif;
+  color: #939598;
+  margin: 31px 0 50px;
+}
+#video {
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.5);
+  -webkit-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  -moz-box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  box-shadow: rgba(80,80,80,0.5) 0 1px 2px;
+  behavior: url("../htc/PIE.htc");
+  position: relative;
+}
