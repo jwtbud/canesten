@@ -81,8 +81,8 @@ body#huvgsite {
 
 #huvgsite .topbox {
 
-	border-radius: 10px;
-	-webkit-border-radius: 10px;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
 	background: url(../images/huvgsite/box-bg.png) repeat-x #fff;
 	width: 840px !important;
 	margin: auto;
@@ -445,7 +445,7 @@ body#huvgsite {
 #huvgsite #fragment-4 #box3.contentbox {
 	padding: 12px 30px 12px 30px;
 	margin-bottom: 30px;
-	margin-top: 50px;
+	margin-top: -5px;
 }
 
 #huvgsite #fragment-4 #box3.contentbox h1 {
@@ -524,11 +524,12 @@ body#huvgsite {
 #huvgsite #fragment-4 .topbox {
 	margin: auto;
 	margin-top: 5px;
-	padding: 20px 30px 25px 30px;
+	padding: 20px 30px 20px 30px;
 	margin-bottom: 95px;
 	text-align: center;
-	margin-top: 20px;
-	border-radius: 30px;
+	margin-top: 30px;
+	width: 850px !important;
+	margin-left: 7px;
 }
 
 #huvgsite #fragment-4 .topbox h1 {
@@ -537,7 +538,7 @@ body#huvgsite {
 	text-shadow: 1px 1px 1px #fff;
 	text-align: center;
 	margin-bottom: -20px;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 #huvgsite #content_bg_borgomba {
