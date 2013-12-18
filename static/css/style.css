@@ -213,13 +213,13 @@ animation: kezdolaphover 2s infinite;
 	color: #ffffff;
 	text-decoration: none;
 	font-size: 14px;
-	transition: 0.2s;
+	transition: 0.1s;
 }
 
 #main_menu li a:hover {
 	color: #cf003a;
 	background:url("../images/menu_bg_over.png") center left no-repeat;
-	transition: background 0.1s, color: 0.11s;
+	transition: background 0.05s, color: 0.11s;
 }
 
 #main_menu li a.actual {

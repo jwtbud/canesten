@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>http://canesten.hu/</loc>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/index.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/huvelygomba.html</loc>
+  <lastmod>2013-10-15T14:30:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/koromgomba.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/borgomba.html</loc>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/kapcsolat.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/kereses.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/terkep.html</loc>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/garancia.html</loc>
+  <priority>0.50</priority>
+</url>
+
+<url>
+  <loc>http://canesten.hu/impresszum.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/betegtajekoztato.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/adatvedelmi_nyilatkozat.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/altalanos_felhasznalasi_feltetelek.html</loc>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/CanestenUno500mgHK.doc</loc>
+  <lastmod>2013-12-20T12:19:54+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_Kombi_Uno_500mg.pdf</loc>
+  <lastmod>2013-04-04T12:19:54+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_Kombi_200mg.pdf</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_G_200mg.pdf</loc>
+  <lastmod>2013-04-04T12:19:54+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canespro_PIL.pdf</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_Plus_b_krem.pdf</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_Plus_b_kuls_old_spray.pdf</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_krem.pdf</loc>
+  <lastmod>2013-04-04T12:19:54+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_k_oldat.pdf</loc>
+  <lastmod>2013-04-04T12:19:54+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/Canesten_kitoltendo_jelentes.pdf</loc>
+  <lastmod>2013-09-03T15:18:51+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/canesten_kombi_200.doc</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/canespro.doc</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/canesten_plus.doc</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+<url>
+  <loc>http://canesten.hu/static/pdf/canesten_plus_spray.doc</loc>
+  <lastmod>2013-10-15T13:32:34+00:00</lastmod>
+  <priority>0.34</priority>
+</url>
+</urlset>
