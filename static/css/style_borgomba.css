@@ -422,15 +422,13 @@ margin-bottom: -2px
 
 #borgsite #container #footer_bayer_logo {
 	display: block;
-	background: url("../images/bayer_logo_wide.png") center center no-repeat;
+	background: url("../images/bayer_logo_wide.png") left center no-repeat;
 	width: 216px;
-	height: 36px;
+	height: 45px;
 	position: absolute;
-	bottom: 192px;
-	left: 35%;
-	margin-left: -40px;
+	bottom: 91px;
+	left: 72px;
 	z-index: 5000;
-
 }
 
 #borgsite #footer_bg {
