@@ -403,6 +403,20 @@ body#huvgsite {
 	margin-left: 55px;
 }
 
+#huvgsite #fragment-3 .contentbox {
+	border-radius: 10px;
+	behavior: url(/pie/PIE.htc);
+	-webkit-border-radius: 10px;
+	background: url(../images/huvgsite/content-bg.png) repeat-x #fff;
+	width: 825px !important;
+	margin: auto;
+	margin-top: 90px;
+	padding: 20px 20px 20px 30px;
+	box-shadow: 0 0 5px #ccc;
+	margin-bottom: 85px;
+	margin-left: 55px;
+}
+
 #huvgsite #fragment-4 .contentbox {
 	behavior: url(/pie/PIE.htc);
 	border-radius: 10px;
@@ -418,17 +432,20 @@ body#huvgsite {
 }
 
 #huvgsite #fragment-4 #box1.contentbox {
-	padding: 4px 30px 18px 30px;
+	padding: 12px 30px 25px 30px;
+	margin-top: -20px;
 }
 
 #huvgsite #fragment-4 #box2.contentbox {
-	padding: 2px 30px 5px 30px;
+	padding: 4px 30px 12px 30px;
 	margin-left: 0px;
-	margin-top: 110px;
+	margin-top: 65px;
 }
 
 #huvgsite #fragment-4 #box3.contentbox {
 	padding: 12px 30px 12px 30px;
+	margin-bottom: 30px;
+	margin-top: 50px;
 }
 
 #huvgsite #fragment-4 #box3.contentbox h1 {
@@ -444,12 +461,12 @@ body#huvgsite {
 }
 
 #huvgsite #fragment-4 #box1.contentbox .imgbox {
-	margin-top: -50px;
+	margin-top: -63px;
 	margin-left: -114px;
 }
 
 #huvgsite #fragment-4 #box2.contentbox .imgbox {
-	margin-top: -44px;
+	margin-top: -47px;
 	padding-left: 40px;
 	padding-right: 0px;
 	margin-right: -88px;
@@ -504,26 +521,23 @@ body#huvgsite {
 	margin-left: 1px;
 }
 
-#huvgsite #fragment-4 .fullcontentbox {
-	background: url(../images/huvgsite/megelozes-fullcontentbox.png) bottom center no-repeat;
-	width: 894px !important;
+#huvgsite #fragment-4 .topbox {
 	margin: auto;
 	margin-top: 5px;
-	padding: 20px 50px 10px 50px;
-	box-shadow: none !important;
-	margin-bottom: 5px;
-	margin-left: -39px;
+	padding: 20px 30px 25px 30px;
+	margin-bottom: 95px;
 	text-align: center;
+	margin-top: 20px;
+	border-radius: 30px;
 }
 
-.safari #huvgsite #fragment-4 .fullcontentbox {
-	margin-left: -38px;
-}
-
-#huvgsite #fragment-4 .fullcontentbox h1 {
+#huvgsite #fragment-4 .topbox h1 {
 	font-size: 20px;
 	font-weight: bold;
 	text-shadow: 1px 1px 1px #fff;
+	text-align: center;
+	margin-bottom: -20px;
+	margin-top: 5px;
 }
 
 #huvgsite #content_bg_borgomba {
@@ -542,8 +556,12 @@ body#huvgsite {
 }
 
 #huvgsite div#imgbox2.imgbox {
-	margin-top: -75px;
-	height: 260px;
+	margin-top: -85px;
+	height: 230px;
+}
+
+#huvgsite #fragment-3 #lastcontentbox #imgbox2.imgbox {
+	margin-top: -90px;
 }
 
 #huvgsite .contentbox h1 {
@@ -602,13 +620,13 @@ body#huvgsite {
 #huvgsite #fragment-3 .contentbox #imgbox2-day.imgbox {
  	margin-left: -155px;
  	margin-right: 20px;
- 	margin-top: -85px;
+ 	margin-top: -95px;
  	height: 255px;
  	width: 330px;
  }
 
 #huvgsite #fragment-3 #lastcontentbox.contentbox {
-	height: 95px;
+	height: 62px;
 
 }
 
