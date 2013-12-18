@@ -129,6 +129,14 @@ a {
   behavior: url("../htc/PIE.htc");
   position: relative;
 }
+a.homepagelink {
+  display: block;
+  height: 60px;
+  width: 275px;
+  position: absolute;
+  margin-left: 15px;
+  z-index: 1000;
+}
 .transition {
   -webkit-transition: background 0.3s ease-in;
   -moz-transition: background 0.3s ease-in;
