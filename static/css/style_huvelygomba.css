@@ -638,10 +638,11 @@ body#huvgsite {
  	margin-left: 120px;
  	padding-left: 95px;
  	padding-top: 10px;
- 	width: 550px;
+	width: auto;
+	padding-right: 35px;
  	height: 12px !important;
  	display: block;
- 	background: url(../images/huvgsite/fragment-2-h1.png) no-repeat top left;
+ 	background: url(../images/huvgsite/fragment-2-h1.png) no-repeat top right;
  	z-index: 5;
  	font-size: 18px;
  	font-weight: bold;
@@ -783,7 +784,7 @@ margin-right: 15px;
 	padding-top: 30px;
 	color: #939598;
 	line-height: 25px;
-	padding-bottom: 50px;
+	padding-bottom: 90px;
 }
 
 #huvgsite .bottomnavig {
