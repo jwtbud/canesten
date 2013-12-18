@@ -14,10 +14,10 @@ textarea:focus, input:focus, a{
 b {
 	font-weight: bold !important;
 }
-html[xmlns] .clearfix { 
-	display: block; 
+html[xmlns] .clearfix {
+	display: block;
 }
-* html .clearfix { 
+* html .clearfix {
 	height: 1%;
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
@@ -32,8 +32,8 @@ body {
 	margin: 0px;
 	padding: 0px;
 }
-a img { 
-	border: 0; 
+a img {
+	border: 0;
 }
 a.homepagelink {
 	display: block;
@@ -50,8 +50,7 @@ ul.oldalterkep {
 }
 ul.oldalterkep li {
 	list-style-type: none;
-	margin-bottom: 30px;
-
+	margin-bottom: 50px;
 }
 
 ul.oldalterkep ul li {
@@ -88,44 +87,44 @@ ul.oldalterkep ul li li{
 opacity: 0.65;
 transition: 0.4s;
 animation: kezdolaphover 5s infinite;
--webkit-animation: kezdolaphover 5s infinite; 
+-webkit-animation: kezdolaphover 5s infinite;
 }
 .kezdolaplink a img {
 	position: absolute;
 	transition: 0.2;
 }
 .kezdolaplink a:hover img{
--ms-animation: kezdolaphover 1s infinite;
--moz-animation: kezdolaphover 1s infinite;
-animation: kezdolaphover 1s infinite;
--webkit-animation: kezdolaphover 1s infinite; 
+-ms-animation: kezdolaphover 2s infinite;
+-moz-animation: kezdolaphover 2s infinite;
+animation: kezdolaphover 2s infinite;
+-webkit-animation: kezdolaphover 2s infinite;
 }
 
-@keyframes kezdolaphover 
+@keyframes kezdolaphover
 {
 0% { margin-top: 0px; }
-50% { margin-top: -3px; }
+50% { margin-top: -10px; }
 100% { margin-top: 0px; }
 }
 
-@-ms-keyframes kezdolaphover 
+@-ms-keyframes kezdolaphover
 {
 0% { margin-top: 0px; }
-50% { margin-top: -3px; }
+50% { margin-top: -10px; }
 100% { margin-top: 0px; }
 }
 
-@-moz-keyframes kezdolaphover 
+@-moz-keyframes kezdolaphover
 {
 0% { margin-top: 0px; }
-50% { margin-top: -3px; }
+50% { margin-top: -10px; }
 100% { margin-top: 0px; }
 }
 
-@-webkit-keyframes kezdolaphover 
+@-webkit-keyframes kezdolaphover
 {
 0% { margin-top: 0px; }
-50% { margin-top: -3px; }
+50% { margin-top: -10px; }
 100% { margin-top: 0px; }
 }
 
@@ -165,7 +164,7 @@ animation: kezdolaphover 1s infinite;
 	margin-left:185px;
 	padding-left: 10px;
 	margin-top:74px;
-	font-size:10px;	
+	font-size:10px;
 	text-align:left;
 	line-height:14px;
 	width: 210px;
@@ -262,7 +261,7 @@ animation: kezdolaphover 1s infinite;
 	height:16px;
 	line-height:14px;
 	padding-right:26px;
-	background:url("../images/search_icon_menu.png") center right no-repeat;	
+	background:url("../images/search_icon_menu.png") center right no-repeat;
 	margin-right:8px;
 }
 
@@ -459,10 +458,10 @@ animation: kezdolaphover 1s infinite;
 #content_bg_borgomba {
 	width: 100%;
 	background:url("../images/content_bg_borgomba.jpg") left bottom repeat-x;
-	
+
 	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#E6F3F9'); /* for IE */
 	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#E6F3F9)); /* for webkit browsers */
-	background: -moz-linear-gradient(top,  #ffffff,  #E6F3F9); /* for firefox 3.6+ */ 
+	background: -moz-linear-gradient(top,  #ffffff,  #E6F3F9); /* for firefox 3.6+ */
 }
 
 #content_bg_inner {
@@ -515,6 +514,7 @@ animation: kezdolaphover 1s infinite;
 font-size: 12px;
 line-height: 18px;
 color: #444;
+list-style-type: square;
 }
 
 #content_bg_padding #garancia ul {
@@ -545,6 +545,11 @@ margin-bottom: 20px !important;
 	color: #cf003a;
 }
 
+#content_bg_padding a:hover {
+/*	color: #ea1f58;
+	transition: 0.2s;*/
+}
+
 #content_bg_padding_borgomba {
 	min-width: 950px;
 	margin-left: 14px;
@@ -564,9 +569,10 @@ margin-bottom: 20px !important;
 .content-in-tab h2 , #content_bg_padding h2 {
 	font-size: 14px;
 	line-height: 20px;
-	font-weight: normal;
+	font-weight: bold;
 	color: #cf003a;
 	padding-bottom: 5px;
+
 }
 
 .content-in-tab h3 , #content_bg_padding h3 {
@@ -638,7 +644,7 @@ margin-bottom: 20px !important;
 	font-size: 10px;
 	font-weight: bold;
 	color: #FFFFFF;
-	
+
 }
 /*
 .content-in-tab h2 span{
@@ -675,8 +681,8 @@ h2.ui-accordion-header.ui-state-active {
 	display:none
 }
 
-.ui-tabs-nav .ui-state-active a, 
-.ui-tabs-nav .ui-state-active a:link, 
+.ui-tabs-nav .ui-state-active a,
+.ui-tabs-nav .ui-state-active a:link,
 .ui-tabs-nav .ui-state-active a:visited {
 	color:#cf013a;
 }
@@ -709,6 +715,21 @@ h2.ui-accordion-header.ui-state-active {
 	text-decoration:none;
 }
 
+/*#sitemap ul li:before {
+	display:  block;
+	height: 20px;
+	width: 20px;
+	background: url(../images/maplink-arrow.png) no-repeat top center;
+	content: "";
+	position: absolute;
+	margin-left: -24px;
+	margin-top: 2px;
+	font-weight:  bold;
+}
+#sitemap ul li li:before {
+	display:  none;
+}
+*/
 #search #content_bg_padding {
 	margin:0 25px 30px 25px;
 	padding-top: 80px;
